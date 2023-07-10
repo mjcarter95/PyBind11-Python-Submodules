@@ -4,13 +4,14 @@ Usage:
 
 ```
 >>> import test_package
->>> maths = test_package.maths.Maths()
->>> maths.add(2,5)
+>>> test_package.maths.add(2,5)
 7
->>> test = test_package.test.Test()
->>> test.add(2,5)
+>>> test_package.test.add(2,5)
 7
->>> test.python_module.add(2,5)
+>>> test_package.python_module
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'test_package' has no attribute 'python_module'
 ```
 
 
