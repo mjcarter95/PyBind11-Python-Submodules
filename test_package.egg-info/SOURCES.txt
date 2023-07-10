@@ -1,3 +1,4 @@
+README.md
 pyproject.toml
 setup.py
 test_package.egg-info/PKG-INFO
