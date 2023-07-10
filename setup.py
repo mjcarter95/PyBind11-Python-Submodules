@@ -17,6 +17,8 @@ ext_modules = [
     Pybind11Extension("test_package",
         [
          "test_package/src/main.cpp",
+         "test_package/src/maths/bindings.cpp",
+         "test_package/src/test/bindings.cpp",
         ],
         # Example: passing in the version to the compiled code
         define_macros = [('VERSION_INFO', __version__)],
